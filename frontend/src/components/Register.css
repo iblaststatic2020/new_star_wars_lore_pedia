@@ -1,0 +1,53 @@
+/* Register.css */
+
+.register {
+    max-width: 400px; /* Adjust max-width as per your design */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 3px solid yellow;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    width: calc(100% - 20px); /* Adjust width to fit within the padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ffcc00; /* Darker blue on hover */
+  }
+  

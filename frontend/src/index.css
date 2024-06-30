@@ -13,11 +13,19 @@ body {
   padding: 20px;
 }
 
+@font-face {
+  font-family: 'StarJedi';
+  src: url('/fonts/Starjedi.ttf') format('truetype'); /* Adjust the path and format as per your font file */
+  /* Add additional font formats if necessary */
+}
+
+
 /* Additional styling for other elements */
 h1, h2, h3, h4, h5, h6 {
   color: yellow; /* Customize heading colors */
   margin-top: 0;
   font-weight: 300; /* Light font weight for modern look */
+  font-family: 'StarJedi', Arial, sans-serif; /* Use Star Wars font for headings */
 }
 h1 {
   font-size: 2.5em;
@@ -131,3 +139,50 @@ input:focus, textarea:focus {
     flex-direction: column;
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  margin-right: 15px;
+}
+
+.nav-button {
+  margin-left: auto;
+}
+
+.login-button {
+  background-color: yellow;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.register-button {
+  color: white;
+  border: 1px solid white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.login-button:hover,
+.register-button:hover {
+  text-decoration: none;
+}
+
